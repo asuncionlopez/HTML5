@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form name="formulario1" method="POST" action="Principal.html">
+        <fieldset>
+            <legend><b>Formulario</b></legend>
+            <label><b>Tipo documento:</b></label>
+            </br>
+            <select>
+                <option>Célula</option>
+                <option>DNI</option>
+                <option>CIF</option>
+            </select>
+            </br>
+            </br>
+            <label><b>Nombre:</b></label>
+            </br>
+            <input />
+            </br>
+            </br>
+            <label><b>Apellidos:</b></label>
+            </br>
+            <input />
+            </br>
+            </br>
+            <label><b>Género:</b></label>
+            </br>
+            <input name="genero" type="radio" value="Masculino" /> Masculino
+            </br>
+            <input name="genero" type="radio" value="Femenino" /> Femenino
+            </br>
+            </br>
+            <label>Descripción:</label>
+            </br>
+            <textarea>
+
+            </textarea>
+            <br />
+            <br />
+            <label>Fecha de nacimiento:</label>
+            <br />
+            <input type="date" name="fecha_nac" />
+            <br />
+            <br />
+            <label>Mes</label>
+            <input type="month" name="mes" />
+            <br />
+            <br />
+            <label>Edad</label>
+            <input type="number" min="10" max="20" />
+            <br />
+            <br />
+            <label>Años de experiencia (10 a 20)</label>
+            <input type="range" min="10" max="20" />
+            <br />
+            <br />
+            <input type="button" value="Cargar Informacion" style="background-color: rgb(206, 206, 206);color:black">
+        </fieldset>
+    </form>
+</body>
+
+</html>

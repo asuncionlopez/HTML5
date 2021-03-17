@@ -3,28 +3,27 @@ html{
 }
 
 body{
-    color: brown;
+    color: lightblue;
+}
+p{
+    color: red;
     text-align: center;
 }
-
-p{
+header{
     text-align: right;
-    color: darkblue;
+    color: green;
 }
-
-#p1{
-    color: darkgreen;
+article{
+    text-align: center;
+    color: red;
 }
-
-.lista{
-    color: hotpink;
-    text-align: right;
-}
-
-p.lista{
-    color: khaki;
-    text-align: left;
-}
-p.grande{
+#cabecera{
     font-size: 200%;
+}
+.prueba{
+    font-size: 100%;
+    margin: 25%;
+}
+p.prueba{
+    font-size: 300%;
 }

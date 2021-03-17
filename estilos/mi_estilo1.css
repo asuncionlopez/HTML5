@@ -1,0 +1,24 @@
+html{
+    background-color: khaki;
+    background-image: url("/imagenes/mi_imagen.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 30%;
+}
+h1{
+    background-color: lawngreen;
+}
+#art2{
+    background-color: mediumblue;
+    opacity: 0.5;
+}
+p{
+    border-style: solid;
+    border-radius: 5%;
+}
+p.double{
+    border-style: double;
+    border-width: 15px 20px 25px 10px; /*arriba derecha abajo izquierda*/
+    border-color: mediumvioletred;
+    border-left-color: navy;
+    border-left-style: solid;
+}

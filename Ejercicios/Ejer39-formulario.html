@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body {
+            margin-left: 20px;
+        }
+
+        form {
+            background-color: rgb(240, 240, 240);
+            width: 470px;
+        }
+
+        fieldset {
+            width: 400px;
+            margin-left: 20px;
+        }
+
+        legend {
+            background-color: rgb(199, 199, 199);
+        }
+
+        input {
+            width: 390px;
+            padding: 5px;
+
+        }
+
+        select {
+            width: 405px;
+            padding: 5px;
+
+        }
+
+        input[type="submit"] {
+            background-color: rgb(0, 81, 255);
+            padding: 10px;
+            color: white;
+            font-family: Arial;
+            border: none;
+            border-radius: 5px;
+            margin-left: 20px;
+            width: 430px;
+        }
+
+        h4 {
+            background-color: rgb(153, 153, 184);
+            width: 470px;
+            padding: 2px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h4>DATOS DE CONTACTO</h4>
+    <form name="formularo1">
+        <br />
+        <fieldset>
+            <legend>Campos a introducir</legend>
+            </br>
+            <label>Nombre</label>
+            </br>
+            <input type="text" name="nombre" placeholder="Nombre" />
+            </br>
+            </br>
+            <label>Apellidos</label>
+            </br>
+            <input type="text" name="apellidos" placeholder="Apellidos" />
+            </br>
+            </br>
+            <label>Provincia</label>
+            </br>
+            <select name="provincia">
+                <option>Madrid</option>
+                <option>Guadalajara</option>
+                <option>Cuenca</option>
+                <option>Toledo</option>
+                <option>Ávila</option>
+                <option>Cáceres</option>
+                <option>Segovia</option>
+                <option>Otra provincia</option>
+            </select>
+            </br>
+
+        </fieldset>
+        </br>
+        <input type="submit" value="ENVIAR" />
+        </br>
+        </br>
+    </form>
+</body>
+
+</html>
